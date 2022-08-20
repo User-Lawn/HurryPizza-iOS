@@ -21,11 +21,10 @@
 		6031A5EA28B019E40043104C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5E928B019E40043104C /* Response.swift */; };
 		6031A5F028B01A870043104C /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5EF28B01A870043104C /* AuthResponse.swift */; };
 		6031A5F228B01AE80043104C /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5F128B01AE80043104C /* AuthRequest.swift */; };
-		6031A5F628B01B2E0043104C /* PathCompleteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5F528B01B2E0043104C /* PathCompleteRequest.swift */; };
-		6031A5FA28B01B8E0043104C /* PathCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5F928B01B8E0043104C /* PathCompleteResponse.swift */; };
+		6031A5F628B01B2E0043104C /* SavePathRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5F528B01B2E0043104C /* SavePathRequest.swift */; };
+		6031A5FA28B01B8E0043104C /* SavePathResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5F928B01B8E0043104C /* SavePathResponse.swift */; };
 		6031A5FC28B01BC70043104C /* OtherUserPathRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5FB28B01BC70043104C /* OtherUserPathRequest.swift */; };
 		6031A5FE28B01C2A0043104C /* OtherUserPathResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A5FD28B01C2A0043104C /* OtherUserPathResponse.swift */; };
-		6031A60428B06CA60043104C /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A60328B06CA60043104C /* SigninView.swift */; };
 		6031A60628B06CB80043104C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A60528B06CB80043104C /* SignupView.swift */; };
 		6031A60928B06CC40043104C /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A60828B06CC40043104C /* RankView.swift */; };
 		6031A60C28B06D280043104C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6031A60B28B06D280043104C /* ProfileView.swift */; };
@@ -58,6 +57,7 @@
 		701D603228B10743000918F4 /* Mine.json in Resources */ = {isa = PBXBuildFile; fileRef = 701D603128B10743000918F4 /* Mine.json */; };
 		701D603428B10767000918F4 /* Fireworks.json in Resources */ = {isa = PBXBuildFile; fileRef = 701D603328B10767000918F4 /* Fireworks.json */; };
 		701D603628B112F9000918F4 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D603528B112F9000918F4 /* Extentions.swift */; };
+		B28E234628B11F66001F88BB /* MapConfirmPopUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28E234528B11F66001F88BB /* MapConfirmPopUPView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,11 +94,10 @@
 		6031A5E928B019E40043104C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		6031A5EF28B01A870043104C /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		6031A5F128B01AE80043104C /* AuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
-		6031A5F528B01B2E0043104C /* PathCompleteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathCompleteRequest.swift; sourceTree = "<group>"; };
-		6031A5F928B01B8E0043104C /* PathCompleteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathCompleteResponse.swift; sourceTree = "<group>"; };
+		6031A5F528B01B2E0043104C /* SavePathRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePathRequest.swift; sourceTree = "<group>"; };
+		6031A5F928B01B8E0043104C /* SavePathResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePathResponse.swift; sourceTree = "<group>"; };
 		6031A5FB28B01BC70043104C /* OtherUserPathRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUserPathRequest.swift; sourceTree = "<group>"; };
 		6031A5FD28B01C2A0043104C /* OtherUserPathResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUserPathResponse.swift; sourceTree = "<group>"; };
-		6031A60328B06CA60043104C /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		6031A60528B06CB80043104C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		6031A60828B06CC40043104C /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 		6031A60B28B06D280043104C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -130,6 +129,7 @@
 		701D603128B10743000918F4 /* Mine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mine.json; sourceTree = "<group>"; };
 		701D603328B10767000918F4 /* Fireworks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Fireworks.json; sourceTree = "<group>"; };
 		701D603528B112F9000918F4 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		B28E234528B11F66001F88BB /* MapConfirmPopUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConfirmPopUPView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,8 +264,8 @@
 		6031A5F428B01B130043104C /* Path */ = {
 			isa = PBXGroup;
 			children = (
-				6031A5F528B01B2E0043104C /* PathCompleteRequest.swift */,
-				6031A5F928B01B8E0043104C /* PathCompleteResponse.swift */,
+				6031A5F528B01B2E0043104C /* SavePathRequest.swift */,
+				6031A5F928B01B8E0043104C /* SavePathResponse.swift */,
 				6031A5FB28B01BC70043104C /* OtherUserPathRequest.swift */,
 				6031A5FD28B01C2A0043104C /* OtherUserPathResponse.swift */,
 			);
@@ -292,7 +292,6 @@
 		6031A60228B06C980043104C /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				6031A60328B06CA60043104C /* SigninView.swift */,
 				6031A61728B06E540043104C /* SigninViewModel.swift */,
 				6031A60528B06CB80043104C /* SignupView.swift */,
 				6031A61928B06E600043104C /* SignupViewModel.swift */,
@@ -332,6 +331,7 @@
 			children = (
 				6031A61C28B06E900043104C /* MapViewModel.swift */,
 				6031A61E28B06EB80043104C /* MapView.swift */,
+				B28E234528B11F66001F88BB /* MapConfirmPopUPView.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -583,13 +583,14 @@
 				701D603028B10710000918F4 /* LottieView.swift in Sources */,
 				6031A61828B06E540043104C /* SigninViewModel.swift in Sources */,
 				6031A60928B06CC40043104C /* RankView.swift in Sources */,
-				6031A5F628B01B2E0043104C /* PathCompleteRequest.swift in Sources */,
+				6031A5F628B01B2E0043104C /* SavePathRequest.swift in Sources */,
 				6031A5E228B016C30043104C /* AuthManager.swift in Sources */,
 				6031A5E628B016E20043104C /* RankManager.swift in Sources */,
 				6031A62928B0733B0043104C /* HomeViewModel.swift in Sources */,
 				602250C728AFE618001C5FE6 /* ContentView.swift in Sources */,
 				6031A63528B075B40043104C /* OnboardingView.swift in Sources */,
 				602250C528AFE618001C5FE6 /* HurryPizza_iOSApp.swift in Sources */,
+				B28E234628B11F66001F88BB /* MapConfirmPopUPView.swift in Sources */,
 				6031A61228B06E3A0043104C /* SettingViewModel.swift in Sources */,
 				6031A63028B0739B0043104C /* SplashViewModel.swift in Sources */,
 				6031A61D28B06E900043104C /* MapViewModel.swift in Sources */,
@@ -608,12 +609,11 @@
 				6031A5EA28B019E40043104C /* Response.swift in Sources */,
 				6031A61A28B06E600043104C /* SignupViewModel.swift in Sources */,
 				6031A5E428B016DB0043104C /* RouteManager.swift in Sources */,
-				6031A5FA28B01B8E0043104C /* PathCompleteResponse.swift in Sources */,
+				6031A5FA28B01B8E0043104C /* SavePathResponse.swift in Sources */,
 				6031A63328B075A20043104C /* OnboardingViewModel.swift in Sources */,
 				6031A5F228B01AE80043104C /* AuthRequest.swift in Sources */,
 				6031A62E28B073930043104C /* SplashView.swift in Sources */,
 				6031A5FE28B01C2A0043104C /* OtherUserPathResponse.swift in Sources */,
-				6031A60428B06CA60043104C /* SigninView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
